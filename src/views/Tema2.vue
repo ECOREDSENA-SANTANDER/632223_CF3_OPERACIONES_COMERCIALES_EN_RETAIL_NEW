@@ -152,7 +152,7 @@
                 .titulo-sexto.color-secundario.mb-3
                   h5 Figura 10. 
                   | Surtido estrecho y poco profundo
-                img(alt="Se presenta cuando el establecimiento tiene pocas familias y pocas referencias." src="@/assets/curso/tema2/11.svg")
+                img(alt="Se presenta cuando el  establecimiento tiene pocas familias y pocas referencias." src="@/assets/curso/tema2/11.svg")
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -231,7 +231,7 @@
         .subt.mb-5(data-aos="fade-right")
           .d-flex.align-items-center.mb-1
             img(src='@/assets/curso/tema1/ic.svg', alt='')
-            h3.mb-0.ms-2 Las funciones principales del planograma son: 
+            p.mb-0.ms-2 Las funciones principales del planograma son: 
 
         .row.justify-content-center(data-aos="fade-left")
           .col-lg-4.col-md-6.mb-4
@@ -867,13 +867,6 @@
                 figure
                   img.img-a.img-t(src='@/assets/curso/tema2/59.svg', alt='Texto que describa la imagen')
             p Cuando el producto se encuentra en su fase de declive y es cuando el espacio puede disminuir o incluso desaparecer del lineal. El fabricante debe decidir si lo retira del mercado o si le inyecta un cambio que sea positivo para el cliente.
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10
-        .sub.mb-4(data-aos="fade-right")
-          .d-flex.align-items-center.mb-1
-            img(src='@/assets/curso/tema2/ico.svg', alt='')
-            h3.mb-0.ms-2 Ciclo de vida del producto
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
@@ -1036,12 +1029,12 @@
                 p.mb-0 Contraste: azul - blanco
                 p.mb-0 Forma: circular
                 p.mb-0 El color azul, cubrirá mínimo el 50 % del área de la señal.
-              .tarjeta.colore4.p-3(x="90.5%" y="39%" numero="")
+              .tarjeta.colore4.p-3.pe-4(x="90.5%" y="39%" numero="")
                 .mb-3.amarillo
                 p.mb-4 Se usa para advertir precaución y riesgo de peligro.
                 p.mb-0 Contraste: amarillo - negro
                 p.mb-0 Forma: triangular
-                p.mb-0 El color amarillo, cubrirá mínimo el &nbsp;50 % del área de la señal.
+                p.mb-0 El color amarillo, cubrirá mínimo el 50 % del área de la señal.
     
     p.mb-5(data-aos="fade-right") Por otro lado, existe la señalética propia de cada almacén, empresa o establecimiento.
     
