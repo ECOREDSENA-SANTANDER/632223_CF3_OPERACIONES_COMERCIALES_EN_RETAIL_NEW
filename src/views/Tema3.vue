@@ -54,7 +54,7 @@
                 img(alt="" src="@/assets/curso/tema3/2.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-7.col-12
-                h4.mb-4 Muebles stand
+                h4.mb-4 Muebles #[em stand]
                 p.mb-4 Mueble específico de las marcas comerciales, cuyo fin es exhibir promociones, degustaciones, demostraciones o exhibiciones de diferentes artículos.
               .col-lg-4.col-md-7
                 img(alt="" src="@/assets/curso/tema3/3.png")
@@ -306,7 +306,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-12
                 p.mb-4 #[b Entornos físicos]
-                p.mb-0 Se refiera a permitirle al cliente de poder interactuar a través de ambientes físicos como por ejemplo las oficinas, tiendas o stands en donde el cliente pueda dejar comentarios o sugerencias.
+                p.mb-0 Se refiera a permitirle al cliente de poder interactuar a través de ambientes físicos como por ejemplo las oficinas, tiendas o #[em stands] en donde el cliente pueda dejar comentarios o sugerencias.
     
     p.mb-4(data-aos="fade-right") Estas dimensiones podrán ser dispuestas por cualquier tipo de empresa, así no tengan la oportunidad de estar en los 360 º ya que con una buena estrategia en medios alternativos y una buena inversión en la activación podría llamar la atención del cliente. Para una empresa del sector #[em retail], las dimensiones del entorno físico y las personas son vitales, porque a los clientes los tiene disponibles y cautivos en el momento de la compra dentro del punto de venta y si los trabajadores están comprometidos todo debe salir muy bien a la hora de desarrollar una activación. Eso sí, sin olvidarse de los demás niveles, los cuales deben ser trabajados de manera coherente con la idea y la identidad de la marca para que en medios digitales el cliente tenga la oportunidad de vincularse con la marca y además de referenciarla a sus contactos.
     
