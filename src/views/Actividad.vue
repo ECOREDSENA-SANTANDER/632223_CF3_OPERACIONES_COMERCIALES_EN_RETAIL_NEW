@@ -2,31 +2,244 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      
-      .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-        .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-          .tarjeta.h-100.d-flex.align-items-center.p-4
-            figure
-              img(src="@/assets/template/arrastrar_soltar.svg", alt="Texto que describa la imagen")
-        .col-12.col-md-8.col-lg-9
-          .titulo-segundo
-            h2 Exhibición y vitrinismo en el formato comercial
-          p.mb-4 Fortalecer los conceptos de Exhibición y vitrinismo en el formato comercial, como complemento para su formación académica. 
-          .tarjeta.actividad.p-3
-            .row.justify-content-around.align-items-center            
-              .col-sm.mb-3.mb-sm-0
-                p.fw-bold.mb-0 Arrastrar y soltar coincidencias
-              .col-auto
-                a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
-                  span Realizar
-                  i.fas.fa-puzzle-piece
-                  
+  
+      #Actividad                
+        <Actividad :cuestionario="cuestionario"/>
+  
   </template>
 
 <script>
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
-  name: 'Actividad',
+  name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
+  data: () => ({
+    cuestionario: {
+      tema: 'Manejo de inventarios en el <em>Retail</em>.',
+      titulo: 'Cuestionario',
+      introduccion:
+        '<b> Objetivo:</b> Evaluar la comprensión y apropiación de los conceptos fundamentales sobre el manejo de inventarios en el <em>Retail</em>.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '<em>Merchandising</em> son todas las técnicas y estrategias que se emplean en el diseño de un escaparate o vitrina con el fin de conquistar los clientes que transitan en el establecimiento, incitarlos e invitarlos a que realicen la compra de los productos exhibidos.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'El sector de descuento duro o <em>hard discount</em>, se caracteriza por ofrecer mercancía de pésima calidad con precios elevados, especialmente en la canasta familiar.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'El diseño interior de un establecimiento comercial busca crear un flujo de clientes que los dirija estratégicamente hacia áreas que fomenten una actitud de compra positiva.',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'El surtido es el conjunto de productos ofertados por los diferentes establecimientos comerciales y que se encuentran dispuestos para que el consumidor los compre.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'En un establecimiento comercial no es necesaria la clasificación o estructura del surtido de los artículos en grupos o niveles, ya que el cliente puede desplazarse libremente dentro del local y encontrar los artículos una y otra vez.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            'El planograma, o planimetría, es una herramienta esencial para gestionar de manera eficaz el espacio de exhibición de productos en los establecimientos minoristas.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto:
+            'El vitrinismo abarca todas las técnicas y estrategias utilizadas en el diseño de escaparates o vitrinas, con el objetivo de atraer a los clientes que pasan por el establecimiento.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto:
+            'Según Joan Costa, el vitrinismo es una estrategia fallida, ya que solo cuenta con 8 segundos para captar la atención del cliente. Por esta razón, no debería incluirse en el <em>merchandising.</em>',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto:
+            'Una herramienta fundamental es la señalización comercial, ya que mejora la información dentro del establecimiento y facilita a los visitantes la búsqueda de los productos que necesitan.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto:
+            'El aspecto menos relevante para un establecimiento comercial es su mobiliario, ya que no ofrece ninguna ventaja estratégica y los compradores suelen pasar por alto este elemento.',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
 }
 </script>
-
-<style lang="sass"></style>

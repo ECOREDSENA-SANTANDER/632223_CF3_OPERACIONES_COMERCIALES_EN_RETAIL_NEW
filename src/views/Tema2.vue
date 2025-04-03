@@ -28,7 +28,7 @@
         p.mb-3 Se refiere a los niveles, los cuales se dividen por departamentos, secciones, categorías, familias, subfamilias, artículos y referencias. Por ejemplo, la familia de los licores con productos de vinos comunes, vinos selectos, whisky, ron, aguardiente, brandy, etc.
         p.mb-3 La cantidad de referencias que pone en venta un establecimiento está condicionada por el tamaño del local. Evidentemente, los establecimientos que posean más tamaño tendrán la posibilidad de poner en venta una mayor cantidad de referencias. 
         p.mb-3 Los supermercados, que suelen tener más o menos entre 1.000 m² y 2,500 m², pueden poner en venta aproximadamente 5.300 referencias, y los autoservicios, que son más pequeños en tamaño, máximo 2.900 referencias. Otras variables que influyen en la cantidad de referencias que trabaja un local comercial, son los hábitos de compra del consumidor, la imagen que tenga el establecimiento y su política comercial.
-        p.mb-3 La clasificación o estructura del surtido radica en organizar este grupo de referencias en niveles. Tiene un doble propósito: el primero es diferenciar los niveles y el segundo es identificar cuáles niveles poseen mayor o menor rango. En cuanto a la gestión por categorías, la clasificación de referencias se puede distinguir comenzando en la totalidad del surtido y finalizando en las referencias de los artículos; como se puede ilustra en la siguiente infografía.
+        p.mb-3 La clasificación o estructura del surtido radica en organizar este grupo de referencias en niveles. Tiene un doble propósito: el primero es diferenciar los niveles y el segundo es identificar cuáles niveles poseen mayor o menor rango. En cuanto a la gestión por categorías, la clasificación de referencias se puede distinguir comenzando en la totalidad del surtido y finalizando en las referencias de los artículos; como se puede ilustrar en la siguiente infografía.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-md-12.col-12.mb-4
@@ -220,7 +220,7 @@
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-3 Es una herramienta muy necesaria para la gestión eficaz del espacio donde se exhiben los productos de los establecimientos minoristas, más aún en la actualidad, porque existe un mercado más complicado y competitivo, en el que ha aumentado el tamaño de las tiendas, las dimensiones del surtido y el número de categorías. Esta herramienta tiene como objetivos mejorar la presentación de los artículos y aumentar las ventas.
         p.mb-3 Se puede definir como un instrumento del #[em merchandising] que consiste en el diseño de un boceto, diagrama o croquis a través de un #[em software], donde se describe detalladamente el lugar en el que se van a ubicar los artículos. Además, el planograma detalla la cantidad de productos, el número de #[em facings] (caras) de un mismo producto, cuál es la altura y qué profundidad deben ocupar las distintas referencias señaladas. Se entiende por #[em facing] al número de caras de un mismo producto que se necesitan para que se pueda ver por parte del cliente. Por lo tanto, el planograma viene siendo una estrategia de mercadeo que tiene como objetivo hacer visible al producto al interior del establecimiento.
-        p.mb-3 La complejidad de un planograma va a depender del tamaño del establecimiento, de las necesidades del detallista o del programa #[em (software)] utilizado para su diseño. Por eso se recomienda que el planograma sea sencillo pero que, a la vez, detalle toda la información necesaria para saber cuál es la ubicación exacta de cada artículo dentro de la tienda. 
+        p.mb-3 La complejidad de un planograma va a depender del tamaño del establecimiento, de las necesidades del detallista o del programa #[em (software)] utilizado para su diseño. Por eso se recomienda que el planograma sea sencillo, pero que, a la vez, detalle toda la información necesaria para saber cuál es la ubicación exacta de cada artículo dentro de la tienda. 
       .col-lg-4.col-md-7.col-8.mb-4
         img(src='@/assets/curso/tema2/18.png', alt='tema1')
 
@@ -314,7 +314,7 @@
             img.img-a.img-t(src='@/assets/curso/tema2/23.svg', alt='')
           .col-lg-8.col-md-12.my-3
             h3.mb-4 Pictóricos
-            p.mb-0 Es un planograma más complejo y detallado porque usan una imagen del producto y de cómo debe ser exhibido. Por lo general, se diseñan a escala y en colores para proveer una descripción exacta de los productos exhibidos. Comúnmente usado en establecimientos de moda y tiendas por departamento donde la exhibición es más relevante y la presentación es primordial. Suelen ser imágenes bidimensionales a través de fotos o ilustraciones que presentan en detalle el diseño de los productos.
+            p.mb-0 Es un planograma más complejo y detallado porque usan una imagen del producto y de cómo debe ser exhibido. Por lo general, se diseñan a escala y en colores para proveer una descripción exacta de los productos exhibidos. Comúnmente usado en establecimientos de moda y tiendas por departamento donde la exhibición es más relevante y la presentación es primordial. Suelen ser imágenes bidimensionales, a través de fotos o ilustraciones que presentan en detalle el diseño de los productos.
       .py-md-4(titulo="La naturaleza de los productos")
         .row.justify-content-center.align-items-center
           .col-lg-3.col-md-7.col-9.my-3
@@ -646,7 +646,7 @@
     
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-8.mb-3
-        p.mb-4 Son todas las técnicas y estrategias que se emplean en el diseño de un escaparate o vitrina con el fin de conquistar los clientes que transitan en el establecimiento, incitarlos e invitarlos a que realicen la compra de los productos exhibidos. El vitrinismo funciona como comunicador visual y conceptual que funciona en pro de conquistar al consumidor. La vitrina es un lienzo en blanco donde puede formar toda la creatividad para convertirla en una obra de arte (Borja, 2021).
+        p.mb-4 Son todas las técnicas y estrategias que se emplean en el diseño de un escaparate o vitrina con el fin de conquistar a los clientes que transitan en el establecimiento, incitarlos e invitarlos a que realicen la compra de los productos exhibidos. El vitrinismo funciona como comunicador visual y conceptual que funciona en pro de conquistar al consumidor. La vitrina es un lienzo en blanco donde puede formar toda la creatividad para convertirla en una obra de arte (Borja, 2021).
         p.mb-4 Según Joan Costa, la vitrina tiene un tiempo de percepción de 8 segundos para atraer la atención de un cliente. Por ello, debe diseñarse con argumentos comunicacionales que resalten los artículos, combinando sencillez y creatividad. La idea, la composición, el color, las piezas gráficas, la línea y la iluminación deben trabajar en conjunto para crear una vitrina llamativa, impactante y una experiencia emocional e inolvidable para el cliente (Costa, 2007).
       .col-lg-4.col-8.col-md-7.mb-3
         img(alt="" src="@/assets/curso/tema2/41.png")
@@ -756,7 +756,7 @@
         figure(data-aos="fade-right").py-2
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2HWT5IqEZds?si=bgEq0O1EVxpqkn34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. #[em Merchandising] en el punto de venta
+          figcaption Video. #[em Merchandising] - Promoción en el punto de venta
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-7
@@ -770,7 +770,7 @@
         img(src='@/assets/curso/tema1/ic.svg', alt='')
         h3.mb-0.ms-2 Tipos de #[em merchandising]
     
-    p.mb-5(data-aos="fade-right") Existen diferentes opciones para destacar los productos en el punto de venta, que dan mayores posibilidades para mejorar la exhibición de las marcas y sus artículos. Y para lograrlos, hay varios tipos de merchandising: según la naturaleza, según el tipo de cliente y según el ciclo de vida del producto, las cuales se presentarán a continuación:
+    p.mb-5(data-aos="fade-right") Existen diferentes opciones para destacar los productos en el punto de venta, que dan mayores posibilidades para mejorar la exhibición de las marcas y sus artículos. Y para lograrlos, hay varios tipos de #[em merchandising]: según la naturaleza, según el tipo de cliente y según el ciclo de vida del producto, las cuales se presentarán a continuación:
   
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
