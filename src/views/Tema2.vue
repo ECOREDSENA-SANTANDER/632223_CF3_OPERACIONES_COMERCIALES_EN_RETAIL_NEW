@@ -321,7 +321,7 @@
             img.img-a.img-t(src='@/assets/curso/tema2/24.svg', alt='')
           .col-lg-8.col-md-12.my-3
             h3.mb-4 Tridimensionales
-            p.mb-3 PlanoGraphics, Panogramas PRO y Adalta Apollo Space Management & Planning, entre otros.
+            p.mb-3 PlanoGraphics, Planogramas PRO y Adalta Apollo #[em Space Management & Planning], entre otros.
             p.mb-3 Cuando se establece un planograma se debe evitar:
             ul.lista-ul
               li.d-flex.mb-1
@@ -607,7 +607,7 @@
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-7.col-12
                 h4.mb-4 Exhibición de ganchos
-                p.mb-4 Están ubicados en las esquinas de las góndolas, por lo que tienen un mayor impacto, aumentando la comunicación visual, con accesorios que lo hacen más atractivo como cabezotes, laterales, frontales, cenefas y partes móviles. Ayudan a posicionar una marca.
+                p.mb-4 Especial para tiendas de ropa, de tal forma que se pueda crear un diseño impactante a la hora de colgar el vestuario de los ganchos. 
               .col-lg-4.col-md-7
                 img(alt="" src="@/assets/curso/tema2/38.svg")
             .row.justify-content-center.align-items-center.p-0.p-lg-4

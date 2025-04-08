@@ -236,7 +236,7 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado: 'Ha superado la actividad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
